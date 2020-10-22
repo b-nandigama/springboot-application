@@ -1,7 +1,5 @@
 language: java
-
+install: skip
+dist: xenial
 jdk:
-  - oraclejdk8
-  - oraclejdk11
-  - openjdk10
-  - openjdk11
+  - openjdk14
