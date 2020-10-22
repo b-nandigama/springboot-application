@@ -1,2 +1,7 @@
 language: java
-install: skip
+
+jdk:
+  - oraclejdk8
+  - oraclejdk11
+  - openjdk10
+  - openjdk11
