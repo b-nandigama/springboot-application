@@ -1,0 +1,59 @@
+2020-10-18 20:34:45,129 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication on DESKTOP-RSTDPJR with PID 2428 (C:\Users\BALAGOPALAM NANDIGAM\eclipse-workspace\springboot-application\target\classes started by BALAGOPALAM NANDIGAM in C:\Users\BALAGOPALAM NANDIGAM\eclipse-workspace\springboot-application)
+2020-10-18 20:34:45,138 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-18 20:34:45,139 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-10-18 20:34:47,746 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-18 20:34:47,938 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 141ms. Found 2 JPA repository interfaces.
+2020-10-18 20:34:51,254 WARN io.undertow.websockets.jsr.Bootstrap [main] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-10-18 20:34:51,304 INFO io.undertow.servlet.spec.ServletContextImpl [main] Initializing Spring embedded WebApplicationContext
+2020-10-18 20:34:51,306 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5690 ms
+2020-10-18 20:34:52,251 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-10-18 20:34:52,785 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-10-18 20:34:56,225 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-18 20:34:56,252 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'configProperties' defined in file [C:\Users\BALAGOPALAM NANDIGAM\eclipse-workspace\springboot-application\target\classes\com\example\springbootapplication\configuration\ConfigProperties.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2020-10-18 20:34:56,253 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-18 20:34:56,263 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2020-10-18 20:34:56,269 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2020-10-18 20:34:56,304 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-18 20:34:56,815 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.springbootapplication.configuration.ConfigProperties required a bean of type 'java.lang.String' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+Consider adding @ConstructorBinding to com.example.springbootapplication.configuration.ConfigProperties if you intended to use constructor-based configuration property binding.
+
+2020-10-18 20:36:25,349 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication on DESKTOP-RSTDPJR with PID 5340 (C:\Users\BALAGOPALAM NANDIGAM\eclipse-workspace\springboot-application\target\classes started by BALAGOPALAM NANDIGAM in C:\Users\BALAGOPALAM NANDIGAM\eclipse-workspace\springboot-application)
+2020-10-18 20:36:25,359 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-18 20:36:25,362 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-10-18 20:36:27,496 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-18 20:36:27,640 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 115ms. Found 2 JPA repository interfaces.
+2020-10-18 20:36:30,232 WARN io.undertow.websockets.jsr.Bootstrap [main] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-10-18 20:36:30,285 INFO io.undertow.servlet.spec.ServletContextImpl [main] Initializing Spring embedded WebApplicationContext
+2020-10-18 20:36:30,290 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4650 ms
+2020-10-18 20:36:30,960 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-10-18 20:36:31,435 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-10-18 20:36:34,339 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-18 20:36:34,474 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-18 20:36:36,186 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31cd0efa, org.springframework.security.web.context.SecurityContextPersistenceFilter@58679ff, org.springframework.security.web.header.HeaderWriterFilter@2f29e630, org.springframework.security.web.authentication.logout.LogoutFilter@32e5fb4c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@452e2210, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b26fac2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6edb2c7b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3294102e, org.springframework.security.web.session.SessionManagementFilter@2ae08750, org.springframework.security.web.access.ExceptionTranslationFilter@1fa29b9e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@768e40af]
+2020-10-18 20:36:36,507 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-18 20:36:36,543 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-10-18 20:36:36,744 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 10 mappings in 'requestMappingHandlerMapping'
+2020-10-18 20:36:36,809 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-10-18 20:36:36,836 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-10-18 20:36:37,308 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-10-18 20:36:37,403 INFO io.undertow.Undertow [main] starting server: Undertow - 2.1.4.Final
+2020-10-18 20:36:37,432 INFO org.xnio.Xnio [main] XNIO version 3.8.0.Final
+2020-10-18 20:36:37,463 INFO org.xnio.nio.NioXnio [main] XNIO NIO Implementation Version 3.8.0.Final
+2020-10-18 20:36:37,799 INFO org.jboss.threads.Version [main] JBoss Threads version 3.1.0.Final
+2020-10-18 20:36:38,016 INFO org.springframework.boot.web.embedded.undertow.UndertowWebServer [main] Undertow started on port(s) 8081 (http)
+2020-10-18 20:36:38,057 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 13.748 seconds (JVM running for 15.901)
