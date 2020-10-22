@@ -3,4 +3,3 @@ install: skip
 dist: xenial
 jdk:
   - openjdk14
-  
